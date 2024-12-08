@@ -10,10 +10,7 @@ import {
   DiGit,
   DiJava,
 } from "react-icons/di";
-import {
-  SiTwilio,
-  SiNextdotjs,
-} from "react-icons/si";
+import { SiTwilio, SiNextdotjs } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {

@@ -47,13 +47,24 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={flappyBird}
+              isBlog={false}
+              title="Online Resume Builder"
+              description="A web application designed to help users quickly create professional resumes in just 10-15 seconds. Built with a focus on simplicity and efficiency, it features customizable templates and real-time previews."
+              ghLink="https://github.com/AyushTaparia/Resume_Builder"
+              demoLink="https://resume-builder-inky-nu.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={paintApp}
               isBlog={false}
               title="Paint App"
               description="Developed a robust drawing app with a variety of features, including shape drawing and color
               customization; users could erase and download their creations in seconds. This Online Web Application is made using HTML5, CSS, Canvas, and JavaScript"
               ghLink="https://github.com/AyushTaparia/White_Board"
-              demoLink="https://white-board-ecru.vercel.app/"              
+              demoLink="https://white-board-ecru.vercel.app/"
             />
           </Col>
 
@@ -65,16 +76,6 @@ function Projects() {
               description="Designed and executed a project that allows users to apply various image filters, such asgrayscale, inversion, and saturation while providing options to adjust brightness, rotate, andflip images. Implemented a feature for users to save their edited images. This Web Application is made using HTML5, CSS and Vanilla JavaScript"
               ghLink="https://github.com/AyushTaparia/Image_editor"
               demoLink="https://image-editor-gules.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={flappyBird}
-              isBlog={false}
-              title="Flappy Bird"
-              description="This is a simple game where you control a bird and try to avoid obstacles by flying through gaps. The game gets progressively more difficult as you go on, and your goal is to get the highest score possible."
-              ghLink="https://github.com/AyushTaparia/Flappy-bird"
             />
           </Col>
 

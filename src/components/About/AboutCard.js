@@ -10,11 +10,19 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Ayush Taparia </span>
             from <span className="purple"> Kolkata, India.</span>
-            <br /> I am a currently pursuing B.Tech in Computer Science and Engineering from Techno Main Salt Lake, India.
+            <br /> I am a currently pursuing B.Tech in Computer Science and
+            Engineering from Techno Main Salt Lake, India.
             <br />
-            I have a deep passion for solving data structures and algorithms problems. I am constantly seeking new ways to enhance my skills and broaden my knowledge in this domain.
+            I am currently interning as a software developer at Growth Loops Technology.
             <br />
-            <i>I'm the DSA whiz, slicing through problems with coding wizardry! 💻🔥</i>
+            I have a deep passion for solving data structures and algorithms
+            problems. I am constantly seeking new ways to enhance my skills and
+            broaden my knowledge in this domain.
+            <br />
+            <i>
+              I'm the DSA whiz, slicing through problems with coding wizardry!
+              💻🔥
+            </i>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
